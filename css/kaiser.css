@@ -1,0 +1,177 @@
+/*************************************
+KAISER STUDIO STYLING
+*************************************/
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0 auto;
+	max-width: 60em;
+	font-size: 1em;
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+	line-height: 1.5;
+	padding: 0 5%;
+}
+
+/********************************
+SITE HEADER
+********************************/
+
+header {
+  float: left;
+  font-family: 'Roboto Slab', serif;
+  width: 100%;
+  
+}
+
+#logo {
+
+  text-align: center;
+  margin: 0;
+}
+
+header h1 {
+	color: #566b78;   
+	font-size: 2.5em;
+	font-weight: 500;
+}
+
+nav {
+  text-align: center;
+  margin: 20px 0 0;
+  padding: 10px 0 0;
+}
+
+nav ul {
+	list-style: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+	color: #e81c4f;
+}
+
+nav a {
+	border: px  #e81c4f;
+  border-radius: ; /*290486px*/
+  color: #566b78;
+  font-size: 1em;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: none 100ms ease-out;
+  transition-property: color, background;  
+}
+
+nav li:nth-child(3) {
+  padding-bottom: 5px;
+}
+
+
+/*************************
+BANNER STYLINGS
+*************************/
+.top {
+  clear: both;
+}
+
+.banner {
+	background-color: #263d36;
+	background-image: url("../img/header.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	line-height: 2;
+	padding: 10vw 2em;
+	text-align: center;
+	position: relative;
+  overflow: auto;
+} 
+
+#subtitle {
+	position: absolute;
+	display: inline-block;
+	left: 50%;
+	margin-left: -120px;
+	top: 2px;	
+	font-size: 2em;
+	color: #e81c4f;           /*#263d36;*/
+	font-weight: bolder;
+	
+
+}
+
+/**************************
+MAIN CONTENT STYLING
+*************************/
+h2,
+strong {
+	color: black;
+}
+
+h2 {
+	margin-top: 1em;
+	padding-top: 1em;
+}
+
+a {
+	color: #e81c4f;
+	text-decoration: none;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.feature,
+.sidebar {
+  text-align: center;
+}
+
+/***********************
+SIDEBAR STYLING
+***********************/
+
+[type=submit] {
+   color: #e81c4f;  
+}
+
+[type=text] {
+  border: 1.25px solid #566b78;
+}
+
+[type=text]:focus {
+  border-color: #e81c4f;
+}
+
+
+/***********************
+FOOTER STYLING
+***********************/
+
+footer {
+  font-size: 0.90em;
+  padding-top: 50px;
+  padding-bottom: 5px;	
+  text-align: center;
+}
+
+footer img {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}
+
+
